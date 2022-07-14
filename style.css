@@ -52,7 +52,11 @@ body {
 
 .img-fluid {
   height: auto;
-  padding: 20% 0% 0% 20%;
+  padding: 20% 0% 0% 40%;
+}
+
+.small-image {
+  display: none;
 }
 
 /* buttons */
@@ -82,22 +86,122 @@ body {
 
 /* third section */
 
-.third-section {
+#third-section {
   text-align: center;
   padding: 3% 12%;
   color: #ffffff;
 }
 
-/* bottom section */
-/* #bottom-section {
-  background-color: #ffffff;
-} */
+/* fourth section */
 
-@media (max-width: 390px) {
+#fourth-section {
+  background-color: #ffffff;
+  padding: 4% 0%;
+}
+
+.awards {
+  width: 100%;
+  text-align: center;
+  border-bottom: 2px inset rgb(212, 212, 212);
+  height: 1.5em;
+  /* margin: 10px 0 20px; */
+}
+.awards span {
+  background-color: #ffffff;
+  padding: 0 10px;
+  font-size: 2rem;
+}
+
+.cards {
+  padding: 5% 12% 0% 12%;
+}
+
+/* fifth section */
+
+#fifth-section {
+  padding: 3% 12%;
+  background-color: #ffffff;
+}
+
+.creations .awards {
+  width: 100%;
+  text-align: center;
+  border-bottom: 2px inset rgb(212, 212, 212);
+  height: 1.25em;
+  /* margin: 10px 0 20px; */
+}
+
+.creations .awards span {
+  background-color: #ffffff;
+  padding: 0 10px;
+  font-size: 1.5rem;
+}
+
+.creations ul {
+  font-size: 1rem;
+  padding-top: 15%;
+}
+@media (max-width: 1024px) {
   .main-title {
     font-size: 2rem;
   }
   .sub-text {
     font-size: 0.75rem;
+  }
+  .small-image {
+    display: block;
+  }
+  .large-image {
+    display: none;
+  }
+  .img-fluid {
+    height: auto;
+    padding: 10% 0% 10% 10%;
+  }
+  .content-text {
+    font-size: 1rem;
+  }
+
+  .third-text {
+    font-size: 1rem;
+    padding-top: 0.75rem;
+  }
+  .cards {
+    margin: 10px;
+  }
+  .my-cards {
+    margin: 5% 0%;
+    /* margin-bottom: 10%; */
+  }
+
+  .awards {
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px inset rgb(212, 212, 212);
+    height: 0.75em;
+    /* margin: 10px 0 20px; */
+  }
+  .awards span {
+    background-color: #ffffff;
+    padding: 0 10px;
+    font-size: 1rem;
+  }
+  #fourth-section {
+    padding: 10% 0%;
+  }
+}
+
+@media (max-width: 480px) {
+  .b3 {
+    margin-top: 5%;
+    margin-right: 5%;
+  }
+  .b2 {
+    margin-top: 5%;
+    margin-right: 10%;
+  }
+  .b1 {
+    margin-right: 10%;
+    margin-left: 0%;
   }
 }
