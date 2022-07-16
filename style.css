@@ -153,12 +153,6 @@ footer {
   border-right: 2px inset #808080;
 }
 
-/* .author-info div,
-.techs-used div,
-.disclaimer div {
-  font-size: 1rem;
-} */
-
 .author-info p,
 .techs-used p,
 .disclaimer p {
@@ -179,8 +173,9 @@ footer {
 .disclaimer {
   padding-right: 10%;
 }
+
 /* media queries */
-@media (max-width: 1023px) {
+@media (max-width: 768px) {
   .main-title {
     font-size: 2rem;
   }
@@ -255,15 +250,63 @@ footer {
   }
 }
 
-@media (min-width: 1024px) {
-  .author-info,
-  .techs-used {
-    border-right: none;
-    border-bottom: 2px inset #808080;
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main-title {
+    font-size: 2rem;
   }
-  .author-info,
-  .techs-used,
-  .disclaimer {
-    padding-top: 2%;
+  .sub-text {
+    font-size: 0.75rem;
+  }
+  .small-image {
+    display: block;
+  }
+  .large-image {
+    display: none;
+  }
+  .img-fluid {
+    height: auto;
+    padding: 10% 0% 10% 10%;
+  }
+  .content-text {
+    font-size: 1rem;
+  }
+
+  .third-text {
+    font-size: 1rem;
+    padding-top: 0.75rem;
+  }
+  .cards {
+    margin: 10px;
+  }
+  .my-cards {
+    margin: 5% 0%;
+    /* margin-bottom: 10%; */
+  }
+
+  .awards {
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px inset rgb(212, 212, 212);
+    height: 0.75em;
+    /* margin: 10px 0 20px; */
+  }
+  .awards span {
+    background-color: #ffffff;
+    padding: 0 10px;
+    font-size: 1rem;
+  }
+  #fourth-section {
+    padding: 10% 0%;
+  }
+  .author-info p,
+  .techs-used p,
+  .disclaimer p {
+    font-size: 0.85rem;
+    padding-top: 1rem;
+  }
+
+  .author-info span,
+  .techs-used span {
+    color: #808080;
   }
 }
