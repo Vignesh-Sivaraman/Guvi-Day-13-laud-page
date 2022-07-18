@@ -9,12 +9,15 @@
 
 body {
   background-color: #1b1c1d;
+  width: 100%;
+  margin: auto;
 }
 /* First section */
 
 #title {
   color: #ffffff;
   padding: 3% 12%;
+  width: 100%;
 }
 
 .top-section {
@@ -39,6 +42,7 @@ body {
 #mid-section {
   background-color: #ffffff;
   padding: 7% 12%;
+  width: 100%;
 }
 
 .content-text {
@@ -90,6 +94,7 @@ body {
   text-align: center;
   padding: 3% 12%;
   color: #ffffff;
+  width: 100%;
 }
 
 /* fourth section */
@@ -97,6 +102,7 @@ body {
 #fourth-section {
   background-color: #ffffff;
   padding: 4% 0%;
+  width: 100%;
 }
 
 .awards {
@@ -114,6 +120,7 @@ body {
 
 .cards {
   padding: 5% 12% 0% 12%;
+  width: 100%;
 }
 
 /* fifth section */
@@ -121,6 +128,7 @@ body {
 #fifth-section {
   padding: 3% 12%;
   background-color: #ffffff;
+  width: 100%;
 }
 
 .creations .awards {
@@ -146,6 +154,7 @@ body {
 footer {
   padding: 3% 12%;
   color: #ffffff;
+  width: 100%;
 }
 
 .author-info,
@@ -205,7 +214,6 @@ footer {
   }
   .my-cards {
     margin: 5% 0%;
-    /* margin-bottom: 10%; */
   }
 
   .awards {
@@ -213,7 +221,6 @@ footer {
     text-align: center;
     border-bottom: 2px inset rgb(212, 212, 212);
     height: 0.75em;
-    /* margin: 10px 0 20px; */
   }
   .awards span {
     background-color: #ffffff;
@@ -280,7 +287,6 @@ footer {
   }
   .my-cards {
     margin: 5% 0%;
-    /* margin-bottom: 10%; */
   }
 
   .awards {
@@ -288,7 +294,6 @@ footer {
     text-align: center;
     border-bottom: 2px inset rgb(212, 212, 212);
     height: 0.75em;
-    /* margin: 10px 0 20px; */
   }
   .awards span {
     background-color: #ffffff;
